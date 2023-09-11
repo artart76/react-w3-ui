@@ -1,8 +1,9 @@
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   mode: "jit",
-  darkMode: false, // or 'media' or 'class'
+
   theme: {
+    darkMode: false,   // or 'media' or 'class'
     fontFamily: {
       display: ["Open Sans", "sans-serif"],
       body: ["Open Sans", "sans-serif"],
